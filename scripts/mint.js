@@ -26,7 +26,7 @@ async function main() {
     0
   );
   await safeMintTx.wait();
-  console.log("Mint Tokens Success!\nTransaction hash: ", `https://explorer-evm.testnet.swisstronik.com/tx/${safeMintTx.hash}`);
+  console.log("Mint NFT Success!\nTransaction hash: ", `https://explorer-evm.testnet.swisstronik.com/tx/${safeMintTx.hash}`);
 }
 
 main().catch((error) => {
